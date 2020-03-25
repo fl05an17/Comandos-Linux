@@ -12,3 +12,28 @@ COMANDOS LINUX
 
 -Para eliminar paquetes de archivos
 [[[[[[  sudo rm -f XXXXXXX.tgz  ]]]]]]
+
+
+..................................PYTHON...........................................................
+Para acivar entorno virtual en Python 3.8
+Ingresar a la carpeta del entorno creado + . + bin/ + activate (.bin/activate)
+
+Instalar pip 
+sudo apt-get install python-pip
+
+Instalar virtualenv para entornos python
+pip install virtualenv
+
+Crear entornoVirtual con version especifica de python
+virtualenv + nombre del entorno + --python=python[version] (virtualenv env --python=python3.8)
+
+PASOS PARA CONFIGURAR ESPACIO DE TRABAJO BACKEND DJANGO
+-Crear Carpeta para Entornos
+-Crear Carpeta para Proyectos
+TODO LO ANTERIOR EN UNA CARPETA GLOBAL QUE ABARQUE EL MUNDO Django
+-Crear y activar entorno virtual
+-instalar pip
+-instalar django
+-instalar djagnorestframework
+LISTO
+....................................................................................................
