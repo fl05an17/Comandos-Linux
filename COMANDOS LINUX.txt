@@ -1,0 +1,14 @@
+COMANDOS LINUX
+
+-Para ver mi version de Ubuntu y otras caracteristicas
+
+[[[[[  ./screenfetch-dev  ]]]]]
+
+-Para descargar paquetes de paginas oficiales
+[[[[[[  sudo wget https://xxxxxxxxxxx.tgz  ]]]]]]
+
+-Para extraer Paquetes .tgz
+[[[[[[[  sudo tar xzf XXXXXXXXX.tgz  ]]]]]]]
+
+-Para eliminar paquetes de archivos
+[[[[[[  sudo rm -f XXXXXXX.tgz  ]]]]]]
