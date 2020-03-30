@@ -37,3 +37,21 @@ TODO LO ANTERIOR EN UNA CARPETA GLOBAL QUE ABARQUE EL MUNDO Django
 -instalar djagnorestframework
 LISTO
 ....................................................................................................
+
+
+
+.........................................JAVA.....................................................
+Instalar JRE
+sudo apt install openjdk-14-jre
+
+Instalar JDK
+sudo apt install openjdk-14-jdk
+
+INSTALL JAVA VERSION WITH SDKMAN
+ruta de sdkman /home/fl05an17/.sdkman/
+Comandos
+sdk help [ayuda]
+sdk list java [ver versiones de java]
+sdk install java + la version a instalar [para instalar la version]
+sdk usee java + version [Seleccionar version a usar]
+
