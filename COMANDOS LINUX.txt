@@ -112,4 +112,5 @@ class PersonaList(generics.ListCreateAPIView):
     authentication_classes = (TokenAuthentication,)
 
 
-
+Directory for SDK JAVA Default IntelliJ
+/snap/intellij-idea-community/216/jbr
