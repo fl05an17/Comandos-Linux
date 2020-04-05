@@ -16,6 +16,16 @@ COMANDOS LINUX
 -Para COnsultar espacio en discos
 df -h
 
+-Comando para busquedas de ejecutables de programas
+which ls filezilla php symfony
+
+-Para mostrar la cantidad tota lde RAM dispomible en ubuntu
+free -m
+
+-Para mostrar el tipo y la velocidad de RAM
+sudo lshw -c memory
+
+
 
 
 ...............................DIRECTORIOS DEL SISTEMA LINUX.......................................
@@ -103,13 +113,6 @@ sdk list java [ver versiones de java]
 sdk install java + la version a instalar [para instalar la version]
 sdk usee java + version [Seleccionar version a usar]
 
-
-
-class PersonaList(generics.ListCreateAPIView):
-    queryset = Persona.objects.all()  
-    serializer_class = PersonaSerializer 
-    permission_classes = (IsAuthenticated,)
-    authentication_classes = (TokenAuthentication,)
 
 
 Directory for SDK JAVA Default IntelliJ
